@@ -1,46 +1,112 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React UI Components Assessment
 
-## Available Scripts
+This project is a **React component development assignment** built with **TypeScript** and **TailwindCSS**. It includes two main reusable components: `InputField` and `DataTable`, documented with **Storybook**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Project Goal
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Build reusable UI components with proper typing, responsive design, and accessibility.
+* Demonstrate features like validation, sorting, row selection, and theme toggling.
+* Prepare components for scalability and documentation.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React** (Functional Components & Hooks)
+* **TypeScript** (Strict typing for props and state)
+* **TailwindCSS** (Modern, responsive styling)
+* **Storybook** (Component documentation & interactive demo)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Components Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1️⃣ InputField
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Props: `value`, `onChange`, `label`, `placeholder`, `helperText`, `errorMessage`, `disabled`, `invalid`, `variant`, `size`, `clearable`, `type`
+* Variants: `outlined`, `filled`, `ghost`
+* Sizes: `sm`, `md`, `lg`
+* Features:
 
-### `npm run eject`
+  * Clearable input
+  * Password toggle
+  * Validation states
+  * Light/Dark theme support
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 2️⃣ DataTable
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Props: `data`, `columns`, `loading`, `selectable`, `onRowSelect`
+* Features:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  * Column sorting
+  * Single/multiple row selection
+  * Loading & empty states
+  * Responsive design
+  * Light/Dark theme support
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🌗 Light/Dark Theme
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Toggle available in the demo app.
+* Components automatically update background, text, and input colors.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/<username>/<repo-name>.git
+cd <repo-name>
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+### 4️⃣ Run Storybook
+
+```bash
+npm run storybook
+```
+
+Open [http://localhost:6006](http://localhost:6006) to view the component documentation and interactive demos.
+
+---
+
+## 📌 GitHub Push Commands
+
+```bash
+git add .
+git commit -m "Initial commit - React UI Components Assessment"
+git branch -M main
+git remote add origin https://github.com/<username>/<repo-name>.git
+git push -u origin main
+```
+
+Replace `<username>` and `<repo-name>` with your GitHub username and repository name.
+
+---
+
+## 📚 Learn More
+
+* [React documentation](https://reactjs.org/)
+* [TypeScript documentation](https://www.typescriptlang.org/)
+* [TailwindCSS documentation](https://tailwindcss.com/docs)
+* [Storybook documentation](https://storybook.js.org/docs/react/get-started/introduction)
+
