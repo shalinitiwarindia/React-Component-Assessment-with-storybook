@@ -103,6 +103,9 @@ Replace `<username>` and `<repo-name>` with your GitHub username and repository 
 
 ---
 ScreenShots:
+<img width="1366" height="647" alt="image" src="https://github.com/user-attachments/assets/918d6086-a4e8-4452-9050-fb2d307c368b" />
+<img width="1366" height="658" alt="image" src="https://github.com/user-attachments/assets/d57dbe2d-0fda-44b5-bfbd-d31ce6fe2fae" />
+
 <img width="1084" height="623" alt="image" src="https://github.com/user-attachments/assets/33b49869-d678-4269-9daf-e647d59320e9" />
 <img width="976" height="620" alt="image" src="https://github.com/user-attachments/assets/99f11a86-031d-4e7e-93c6-ab958188f222" />
 <img width="984" height="325" alt="image" src="https://github.com/user-attachments/assets/4ea28657-79ea-4db9-b071-caebc57a9078" />
